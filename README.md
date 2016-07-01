@@ -1,1 +1,1 @@
-# prehospital.github.io
+View the site at [prehospital.github.io](http://prehospital.github.io)

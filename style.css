@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 6em;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: #666;
+}
+
+.myocardium {
+    color: red;
+}
+
+/* List styling */
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.7em;
+}
+
+li img {
+    display: block;
+    margin-bottom: 0.4em;
+}
+
+li span {
+    display: block
+}
+
+li span, li a {
+    font-size: 0.8em;
+    display: block
+}
+
+li a {
+    text-decoration: none;
+    color: #1da1f2;
+}
+
+li a:hover {
+    color: blue;
+}
