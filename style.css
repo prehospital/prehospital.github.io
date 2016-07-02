@@ -63,6 +63,10 @@ ul.aid-list li span, ul.aid-list li a {
 
 /*misc*/
 
+#intro {
+    width: 80%;
+}
+
 a {
     text-decoration: none;
     color: #1684c8;
