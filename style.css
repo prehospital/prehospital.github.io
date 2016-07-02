@@ -17,33 +17,62 @@ p {
     color: red;
 }
 
-/* List styling */
+/* nav list */
 
-li {
+#nav {
+    padding: 0;
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+/* useful links */
+
+ul.links li {
+    list-style-type: none;
+}
+
+ul.links p {
+    font-size: 0.9em;
+}
+
+/* Aid list styling */
+
+ul.aid-list li {
     list-style-type: none;
     display: inline-block;
     padding: 0.7em;
 }
 
-li img {
+ul.aid-list li img {
     display: block;
     margin-bottom: 0.4em;
 }
 
-li span {
+ul.aid-list li span {
     display: block
 }
 
-li span, li a {
+ul.aid-list li span, ul.aid-list li a {
     font-size: 0.8em;
     display: block
 }
 
-li a {
+/*misc*/
+
+a {
     text-decoration: none;
-    color: #1da1f2;
+    color: #1684c8;
 }
 
-li a:hover {
+a:hover {
     color: blue;
+}
+
+input,textarea {
+    padding: 1em;
+    font-family: sans-serif;
 }
