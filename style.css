@@ -72,6 +72,10 @@ a {
     color: #1684c8;
 }
 
+p.authors {
+    font-size: 0.7em !important;
+}
+
 a:hover {
     color: blue;
 }
